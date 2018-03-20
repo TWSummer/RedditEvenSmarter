@@ -8,7 +8,12 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <h1>Hello World!</h1>
+      <div>
+        <h1>Hello World!</h1>
+        <a href="https://www.reddit.com/api/v1/authorize?client_id=H6zic9bY55zEnw&response_type=code&state=TrickNutsackPotato&redirect_uri=https://reddit-even-smarter.herokuapp.com/&duration=temporary&scope=identity edit flair history">
+          Authenticate!
+        </a>
+      </div>
     );
   }
 }
