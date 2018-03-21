@@ -1,4 +1,5 @@
 import { Route, Switch, Link } from 'react-router-dom';
+import { Redirect } from 'react-router';
 import React from 'react';
 
 const ProtectedRouter = (props) => {
@@ -11,6 +12,7 @@ const ProtectedRouter = (props) => {
         // <Route exact path="/questions" component={QuestionContainer} />
         // <Route exact path="/friends" component={FriendSearchContainer} />
         // <Route exact path="/messages" component={MessageContainer} />
+        // <Redirect from='/' to='/profile'/>
       </Switch>
     </div>
   );
